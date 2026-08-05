@@ -1,16 +1,16 @@
-# CadastroView — Java Swing CRUD
+# CadastroView — Java CRUD CLI
 
 <div align="center">
 
 <!-- Animação Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Interface+Gr%C3%A1fica+em+Java+24;Gerenciamento+de+Cadastros;Arquitetura+POO+%2B+Swing" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Sistema+de+Cadastro+em+Java+24;Gerenciamento+via+Terminal;Arquitetura+POO+Completa" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
 ![Java 24](https://img.shields.io/badge/Java-24-orange?style=for-the-badge&logo=openjdk)
-![Swing](https://img.shields.io/badge/UI-Java_Swing-blue?style=for-the-badge)
+![Paradigm](https://img.shields.io/badge/Paradigm-Object--Oriented-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </div>
@@ -19,23 +19,23 @@
 
 ## Sobre o Projeto
 
-O **CadastroView** é uma aplicação desktop desenvolvida em **Java 24** com interface gráfica utilizando **Java Swing**. O sistema foi estruturado para demonstrar a criação de interfaces de cadastro dinâmicas, integrando eventos de UI com lógica de manipulação de dados baseada em Programação Orientada a Objetos (POO).
+O **CadastroView** é uma aplicação de linha de comando (CLI) desenvolvida em **Java 24**. O sistema foi projetado para gerenciar fluxos de cadastro e manipulação de dados via terminal, aplicando na prática os conceitos fundamentais de Programação Orientada a Objetos (POO), como encapsulamento, herança e abstração.
 
 ---
 
 ## Funcionalidades
 
-- **Interface Gráfica Intuitiva**: Formulários estilizados com componentes nativos do Java Swing.
-- **Entrada e Validação de Dados**: Manipulação de campos de texto e menus de seleção.
-- **Integração com Modelos POO**: Conexão direta entre componentes visuais e objetos do domínio.
-- **Visualização de Registros**: Estruturação de dados cadastrados para rápida consulta.
+- **Gerenciamento de Registros**: Operações de criação, leitura, atualização e remoção de dados no terminal.
+- **Entrada e Validação via Console**: Interação direta com o usuário através da leitura de dados no terminal.
+- **Modelagem Orientada a Objetos**: Estruturação de entidades para representação fiel dos dados do domínio.
+- **Organização de Fluxo**: Lógica centralizada para controle das rotinas de cadastro.
 
 ---
 
 ## Tecnologias Utilizadas
 
 - **Linguagem**: Java 24
-- **Interface Gráfica**: Java Swing / AWT
+- **Interface**: Console / Terminal (CLI)
 - **IDE**: IntelliJ IDEA
 - **Controle de Versão**: Git & GitHub
 
@@ -46,6 +46,6 @@ O **CadastroView** é uma aplicação desktop desenvolvida em **Java 24** com in
 ```text
 src/
  └── br/com/cadastro/
-      ├── model/       # Classes de entidade/domínio (Pessoa, Endereço, etc.)
-      ├── view/        # Telas e componentes gráficos Java Swing
+      ├── model/       # Classes de entidade/domínio
+      ├── service/     # Regras de negócio e manipulação de dados
       └── Main.java    # Ponto de entrada da aplicação
