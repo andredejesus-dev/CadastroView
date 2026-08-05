@@ -49,3 +49,20 @@ src/
       ├── model/       # Classes de entidade/domínio
       ├── service/     # Regras de negócio e manipulação de dados
       └── Main.java    # Ponto de entrada da aplicação
+```
+##Como Executar
+---
+Pré-requisitos
+Java Development Kit (JDK) 24 instalado.
+
+Passo a Passo
+Clonar o repositório:
+
+Bash
+git clone [https://github.com/andredejesus-dev/CadastroView.git](https://github.com/andredejesus-dev/CadastroView.git)
+Acessar o diretório:
+
+Bash
+cd CadastroView
+Compilar e executar:
+Abra o projeto no IntelliJ IDEA e execute a classe Main.java.
